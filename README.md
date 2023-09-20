@@ -25,12 +25,6 @@ Developed by: Poorna Krishnaa KJ
 Registeration Number :212220040117
 */
 ```
-
-
-Activity_Main.xml
-
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
-```
 <TextView
     android:id="@+id/head"
     android:layout_width="wrap_content"
@@ -62,7 +56,7 @@ Activity_Main.xml
 
 
 Main_Activity.java:
-
+```
 package com.example.My Application;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle; import android.widget.Toast;
@@ -112,7 +106,7 @@ protected void onDestroy(){
     t.show();
 }
 }
-
+```
 
 ## OUTPUT
 
