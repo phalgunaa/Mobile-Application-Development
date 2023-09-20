@@ -24,7 +24,7 @@ Program to print the text “Hello World”.
 Developed by: Poorna Krishnaa KJ
 Registeration Number :212220040117
 */
-```
+
 <TextView
     android:id="@+id/head"
     android:layout_width="wrap_content"
@@ -52,11 +52,11 @@ Registeration Number :212220040117
     app:layout_constraintHorizontal_bias="0.498"
     app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-```
+
 
 
 Main_Activity.java:
-```
+
 package com.example.My Application;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle; import android.widget.Toast;
