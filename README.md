@@ -30,7 +30,7 @@ Registeration Number :212220040117
 Activity_Main.xml
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
-
+```xml
 <TextView
     android:id="@+id/head"
     android:layout_width="wrap_content"
@@ -57,7 +57,7 @@ Activity_Main.xml
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.498"
     app:layout_constraintStart_toStartOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>```
 
 
 Main_Activity.java:
